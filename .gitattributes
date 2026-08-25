@@ -1,0 +1,13 @@
+# Linguist 语言统计归类（让仓库语言栏符合项目实际）
+# https://github.com/github/linguist
+
+# 文档类不计入语言统计
+*.md linguist-documentation
+*.markdown linguist-documentation
+
+# 配置文件不计入
+*.yaml linguist-documentation
+*.yml linguist-documentation
+*.json linguist-documentation
+*.toml linguist-documentation
+*.rb linguist-documentation
